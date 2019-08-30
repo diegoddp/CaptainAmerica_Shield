@@ -8,81 +8,90 @@
 <title>Escudo Capitão América</title>
 <style>
 .escudo{
+margin: auto;
 height: 500px;
 width: 500px;
-background-image: linear-gradient(to bottom right, #9b0909, red);
+background-image: linear-gradient(to right, #9b0909, red, #9b0909);
 position: relative;
 border-radius: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #636363;
+
 }
 
 .listra1{
 height: 80%;
 width: 80%;
-background-image: linear-gradient(to bottom right, #d6d6d6, white);
+background-image: linear-gradient(to bottom right, #d6d6d6, white, #d6d6d6);
 position: absolute;
-margin: 50px 50px;
 border-radius: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #636363;
+
 }
 
 .listra2{
 height: 75%;
 width: 75%;
-background-image: linear-gradient(to bottom right, #9b0909, red);
+background-image: linear-gradient(to right, #9b0909, red, #9b0909);
 position: absolute;
-margin: 50px 40px 40px 50px;
 border-radius: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #636363;
 
 }
 .nucleo{
 height: 70%;
 width: 70%;
-background-image: linear-gradient(to bottom right, #0044ba, #4b78f4);
+background-image: linear-gradient(to right, #0044ba, #4b78f4, #0044ba);
 position: absolute;
-margin: 45px 10px 0px 45px;
 border-radius: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #636363;
 
 }
 
 .star{
-margin: 55px 15px;
 height: 0;
 width: 0;
-background-image: linear-gradient(to bottom right, #d6d6d6, white);
-position: absolute;
 border-right: 100px solid transparent;
 border-bottom: 70px solid white;
 border-left: 100px solid transparent;
-transform: rotate(35deg);
+transform: rotate(180deg);
+
+
 }
 
 .star:before {
-border-bottom: 80px solid white;
-border-left: 30px solid transparent;
-border-right: 30px solid transparent;
+
+border-right: 100px solid transparent;
+border-bottom: 70px solid white;
+border-left: 100px solid transparent;
+transform: rotate(70deg);
 position: absolute;
-height: 0;
-width: 0;
-top: -45px;
-left: -60px;
-display: block;
-content: '';
-transform: rotate(-35deg);
+content: "";
+left: -101px;
+
 }
 
 .star:after{
-margin: 0px 0px 0px 2px;
-position: absolute;
-display: block;
-color: white;
-top: 8px;
-left: -110px;
-width: 0px;
-height: 0px;
+
 border-right: 100px solid transparent;
 border-bottom: 70px solid white;
 border-left: 100px solid transparent;
 transform: rotate(-70deg);
-content: '';
+position: absolute;
+content: "";
+right: -101px;
+
     }
 
 
